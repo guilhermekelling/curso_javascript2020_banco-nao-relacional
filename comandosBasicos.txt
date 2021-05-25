@@ -1,0 +1,17 @@
+Acessar o terminal do mongo
+use admin 
+db.auth("root", "admin");
+show dbs
+use wm
+show dbs
+db.createCollection('estados')
+show dbs
+show collections
+db.createCollection('Estados')
+show dbs
+..Criará duas base, porque é case sensitive 
+db.Estados.drop()
+show collections
+db.estados.drop()
+show collections
+show dbs
